@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Quiz</string>
+
+    <string name="result">Your result: %1$s</string>
+    <string name="result_subject">Quiz results</string>
+    <string name="next_btn_submit">Submit</string>
+    <string name="previous_btn">Previous</string>
+    <string name="next_btn">Next</string>
+
+    <string name="result_close_descr">Close application</string>
+    <string name="result_back_descr">Drop quiz results and start again</string>
+    <string name="result_share_descr">Share quiz results</string>
 </resources>

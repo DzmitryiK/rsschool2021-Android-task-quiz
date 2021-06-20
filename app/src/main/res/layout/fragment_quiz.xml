@@ -86,32 +86,32 @@
 
                 <RadioButton
                     android:id="@+id/option_one"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     tools:text="Option 1" />
 
                 <RadioButton
                     android:id="@+id/option_two"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     tools:text="Option 2" />
 
                 <RadioButton
                     android:id="@+id/option_three"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     tools:text="Option 3" />
 
                 <RadioButton
                     android:id="@+id/option_four"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     tools:checked="true"
                     tools:text="Option 4" />
 
                 <RadioButton
                     android:id="@+id/option_five"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     tools:text="Option 5" />
 
@@ -124,7 +124,7 @@
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Previous"
+        android:text="@string/previous_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -133,7 +133,7 @@
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Next"
+        android:text="@string/next_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

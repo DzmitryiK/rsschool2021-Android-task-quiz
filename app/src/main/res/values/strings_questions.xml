@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions_names">
+        <item>What is the preferred way of accessing the View from code today?</item>
+        <item>You need to add a separator for the RecyclerView items. For this you should use:</item>
+        <item>What is true for the "@id/" and "@+id/" notations?</item>
+        <item>What Chain type doesn\'t exist?</item>
+        <item>The relationship between screen density (dpi), pixel size (px), and density-independent pixel(dp) is given by:</item>
+    </string-array>
+
+    <string-array name="question_1_answers">
+        <item>lateinit variables</item>
+        <item>lazy variables</item>
+        <item>Android data binding</item>
+        <item>View binding</item>
+        <item>Butterknife</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="question_2_answers">
+        <item>ItemTouchHelper</item>
+        <item>ItemDecoration</item>
+        <item>ItemAnimator</item>
+        <item>LayoutManager</item>
+        <item>Barrier</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="question_3_answers">
+        <item>"@id/" - used in the place of assigning id to View</item>
+        <item>"@+id/" - used when linking to a View with a specific id</item>
+        <item>"@+id/" - used in the place of assigning id to View</item>
+        <item>"@+id/" is used in layout files, when "@id/" - in resource files</item>
+        <item>There is no difference between "@+id/" and "@id/"</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="question_4_answers">
+        <item>Weighted</item>
+        <item>Spread</item>
+        <item>Spread inside</item>
+        <item>Spread outside</item>
+        <item>Packed</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="question_5_answers">
+        <item>dpi = dp / px + 160</item>
+        <item>px = dp * 160 / dpi</item>
+        <item>dp = px * dpi / 160</item>
+        <item>dpi = px * dp * 160</item>
+        <item>px = dp * dpi / 160</item>
+        <item>4</item>
+    </string-array>
+
+
+</resources>

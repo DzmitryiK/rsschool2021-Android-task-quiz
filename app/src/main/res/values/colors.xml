@@ -17,4 +17,8 @@
     <color name="deep_purple_100">#d1c4e9</color>
     <color name="deep_purple_100_light">#fff7ff</color>
     <color name="deep_purple_100_dark">#a094b7</color>
+
+    <color name="blue_100">#bbdefb</color>
+    <color name="blue_100_light">#eeffff</color>
+    <color name="blue_100_dark">#8aacc8</color>
 </resources>
