@@ -75,7 +75,7 @@ data class QuizQuestions(val questionCount:Int,
             res.append(System.getProperty("line.separator"))
             res.append((i+1).toString()+") "+questions[i].questionName)
             res.append(System.getProperty("line.separator"))
-            res.append("Your answer: "+ (questions[i].answers[questions[i].rightAnswer]))
+            res.append("Your answer: "+ (questions[i].answers[questions[i].selectedAnswer]))
         }
 
         return res.toString()
